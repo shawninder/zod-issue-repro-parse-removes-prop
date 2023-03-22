@@ -12,6 +12,6 @@ const options = {
   a: 'A'
 }
 
-console.log('before `schema.parse`', JSON.stringify(options))
+console.log('before `schema.parse`', JSON.stringify(options))      // prints: before `schema.parse` {"a":"A"}
 const validOptions = optionsSchema.parse(options)
-console.log('-after `schema.parse`', JSON.stringify(validOptions))
+console.log('-after `schema.parse`', JSON.stringify(validOptions)) // prints: -after `schema.parse` {}
