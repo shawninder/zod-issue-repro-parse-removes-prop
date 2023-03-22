@@ -1,0 +1,14 @@
+{
+  "name": "zod-issue-repro-parse-removes-prop",
+  "version": "1.0.0",
+  "description": "Reproduce an issue I'm having with Zod so I can ask about it online",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shawn Inder <shawninder@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "zod": "^3.21.4"
+  }
+}
